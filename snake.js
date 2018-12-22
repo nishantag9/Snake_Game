@@ -21,18 +21,18 @@
      this.x += this.xSpeed*scl;
      this.y += this.ySpeed*scl;
 
-     if(this.x < 0)
+     if(this.x < 0 )
      {
        this.x = width;
      }
-     else if (this.x > width) {
+     else if (this.x > width - scl) {
        this.x = 0;
      }
 
-     if(this.y <0){
+     if(this.y < 0 ){
        this.y = height;
      }
-     else if (this.y > height) {
+     else if (this.y > height - scl) {
        this.y = 0;
      }
 
